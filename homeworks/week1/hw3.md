@@ -1,4 +1,4 @@
-##教你朋友 CLI
+## 教你朋友 CLI
 
 
 ### 什麼是 Command Line ？
