@@ -198,11 +198,11 @@ GitHub 則是一個以 Git 的理念為基礎，為開發者提供雲端版本�
 
 ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/08883d7d-5210-498b-805e-241b11490e96/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210418T101406Z&X-Amz-Expires=86400&X-Amz-Signature=4a18047408bb7462e7dc727e3311351cdbbc3efbcab1ba5064125d4d9d5dd817&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
-我使用 GitHub 在線上編輯了 test.txt ，在 123 下面新增一行 456，然後新增了一個檔案 newfile.txt ，目前遠端儲存區的檔案已被更新，但是本地端的儲存區還是更動前的狀態，所以要使用 `git pull`把檔案拉回來。
+我使用 GitHub 在線上編輯了 test.txt，在 123 下面新增一行 456，然後新增了一個檔案 newfile.txt，目前遠端儲存區的檔案已被更新，但是本地端的儲存區檔案還是更新前的狀態，所以要使用 `git pull`把檔案拉回來。
 
-- `git pull <remote name> <branch name>`
+- `git pull origin main`
 
-    因為在 git push 的時候已經使用 -u 設定過 upstream ，所以可以省略為 `git push`。
+    因為在 git push 的時候已經使用 -u 設定過 upstream，所以可以省略為 `git pull`，再用 `cat` 輸出 test.txt 看一下是否有剛剛新增的 456，這樣子就完成啦～
 
     ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ab01d1ca-20f6-4155-aef6-397b6e9de1bf/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210418T101428Z&X-Amz-Expires=86400&X-Amz-Signature=cb25f556a7cf574384a1f4dafec2cde22c280b700c6a3bd9c0bb16456a0eb88c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
 
