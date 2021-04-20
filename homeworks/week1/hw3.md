@@ -5,7 +5,7 @@
 
 命令列（Command-Line）是使用者介面（User Interface，簡稱UI）中的其中一種，也可稱為命令行界面（Command-Line Interface，簡稱CLI），既然要介紹 CLI 就順便一起認識他的朋友 GUI 圖形化介面（Graphics User Interface，簡稱GUI）吧！
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/d9c46f80-602b-405a-8cdf-0d9280c05b0f/_2021-04-16_1.42.39.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210418T100130Z&X-Amz-Expires=86400&X-Amz-Signature=44c1fb13b1ae045a4c075e54e020cb156c5b4e3386a393f97b2793898a84c3a7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22_2021-04-16_1.42.39.png%22)
+![](https://i.imgur.com/AGJUUYp.png)
 
 GUI 是以圖形方式顯示的電腦操作使用者介面，當使用者點選或操作傳送圖形對應的「指令」給電腦，接著使用者需要的檔案或程式就會被開啟；相對 CLI 介面，其實就是跳過第一段使用者對圖形點選或操作的過程，直接由使用者輸入「指令」給電腦，開啟使用者需要的檔案或程式。
 
@@ -25,7 +25,9 @@ GUI 是以圖形方式顯示的電腦操作使用者介面，當使用者點選�
 
     開始 → 所有程式 → 附屬應用程式 → 命令提示字元(cmd)
 
-    **Tips：安裝 [Git](https://git-scm.com/downloads) ，使用 Git-Bash 的介面操作會更方便！**
+    助教補充：也可以在「執行」或「開始的搜尋處」輸入 cmd！
+
+    **Tips：安裝 [Git](https://git-scm.com/downloads) ，使用 Git Bash 的介面操作會更方便！**
 
 - **Mac OSX 作業系統**
 

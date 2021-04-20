@@ -7,7 +7,7 @@
 
 3. 點選右上角的 Code 按鈕，複製 [我的 Repository 連結](https://github.com/Lidemy/mentor-program-5th-becky-123.git)
 4. 開啟本地端的 Terminal ，切換到要放檔案的資料夾：`cd 資料夾路徑`
-5. 第一次需 clone 下載資料至本地端：`git clone <https://github.com/Lidemy/mentor-program-5th-becky-123.git`>
+5. 第一次需 clone 下載資料至本地端：`git clone <https://github.com/Lidemy/mentor-program-5th-becky-123.git>`
 6. 切換至下載的資料夾：`cd mentor-program-5th-becky-123`
 7. 改作業前先創建分支並命名 week1：`git branch week1`
 8. 切換至 week1 分支：`git checkout week1`
@@ -19,6 +19,7 @@
 11. 提交新的版本並填寫說明：`git commit -m week1`
 
     `// Step11、12指令可結合為 → git commit -am week1`
+    `// 助教小叮嚀：使用 git commit -am 時需要留意，指令的作用範圍僅限於「已追蹤」的檔案，如果有額外新增檔案的話，還是要記得使用指令 add 將檔案進行列管哦！`
 
     `// 分支 hw1 的檔案將透過 GitHub 上的 merge (= Pull request) 被合併進 master`
 

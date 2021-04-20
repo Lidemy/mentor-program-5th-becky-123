@@ -7,7 +7,7 @@
 
 「版本控制」這個原理就跟玩遊戲存檔的概念差不多，還記得小時候用模擬器玩神奇寶貝的時候，要抓神獸之前一定要先去神奇寶貝中心存檔！如果沒抓到它或不小心打死了就退出遊戲重開機讀存檔重來，那時候耗個好幾天都不意外呢 XD 
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/54be753f-b08a-4b61-aafa-01d3b8b0c493/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210418T100453Z&X-Amz-Expires=86400&X-Amz-Signature=121efcedd126fe8fe121af5f136cb33a948af9f46fd28d00f636a5428db0b9da&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![](https://i.imgur.com/JngedWo.png)
 
 
 其實神奇寶貝中心就像是最原始的版本控制系統 **VCS（Version Control System）**，將檔案備份在自己的電腦裡，但是如果電腦壞掉或檔案被老母移除了，一樣也是會直接哭出來嗚嗚嗚...
@@ -20,7 +20,7 @@ Git 與其他版控系統最大的差異就於，它解決了「單一儲存區�
 
 GitHub 則是一個以 Git 的理念為基礎，為開發者提供雲端版本控制服務（Repository Hosting）的平台，除了專案作者本人的電腦上，也在 GitHub 官網上儲存一份備份，而且每個曾進行過更動的本地端（就是改過檔案的人的電腦）也能重新放回官網上，形成新的備份。
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/14a4d236-013f-45ba-b5e5-b50af365100a/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210418T100523Z&X-Amz-Expires=86400&X-Amz-Signature=76184aa07b74387842e425adb26eddd567108c03ee56da10e523a00ee5cedab2&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![](https://i.imgur.com/2IBOIlB.png)
 
 很多人都錯誤以為 GitHub 和 Git 是同一樣東西，但這是錯的。Git 是一個在你自己電腦本機端運行的版本控制系統，而 GitHub 則是一個線上服務，讓你將 Git 版本資訊儲放至雲端，就像是 iCloud 雲端硬碟，但它是專屬於程式碼的應用，而且功能更強大。
 
@@ -32,7 +32,7 @@ GitHub 則是一個以 Git 的理念為基礎，為開發者提供雲端版本�
 
 下圖說明了一個檔案在 Git 儲存區的不同狀態，以及可以對它們使用的各種指令：
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/380afb6e-c565-4325-b9cd-d6a3367eb461/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210418T100545Z&X-Amz-Expires=86400&X-Amz-Signature=7e0161002664d7b23ae87a0027134a6f5de98723e21a7d31a7d8229e281dfbc8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![](https://i.imgur.com/GQn7cP6.png)
 
 - **Working Directory**：工作目錄，這些檔案從 Git 目錄內被壓縮過的資料庫中拉出來並放在硬碟供你使用或修改，使用 Add 可將檔案至加到 Staging Area 。
 - **Staging Area**：預存區，存放 Commit (提交) 前的檔案，在這裡的檔案就是準備要 Commit，當你決定 Commit 這些檔案時，檔案就會加到你的 Local Repository。
@@ -80,7 +80,7 @@ GitHub 則是一個以 Git 的理念為基礎，為開發者提供雲端版本�
 
     4. 訊息跑完後，再用 git --version 來確認有回報資訊，就代表安裝完成了。
 
-        ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/aa34829d-8450-4707-8069-13dc31349351/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210418T100643Z&X-Amz-Expires=86400&X-Amz-Signature=bdb5fa76336c2abd80c6bb77ae7fef03503d7afbd3d5691b230e696aefa7e3d7&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+        ![](https://i.imgur.com/68tJ2fo.png)
 
 延伸閱讀：[Git 官網的安裝教學](https://git-scm.com/book/zh-tw/v2/%E9%96%8B%E5%A7%8B-Git-%E5%AE%89%E8%A3%9D%E6%95%99%E5%AD%B8)
 
@@ -117,17 +117,17 @@ GitHub 則是一個以 Git 的理念為基礎，為開發者提供雲端版本�
 
     可用 `ls -a`確認資料夾內有一個名為 .git 的資料夾，表示註冊成功。
 
-    ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/aa1908e9-d7a9-424e-b936-c60db260af07/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210418T100813Z&X-Amz-Expires=86400&X-Amz-Signature=c1ef56efcc70f574f7038e450c37c5951cb6f54cfd9cad691d6eacbdfce43848&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+    ![](https://i.imgur.com/YjchkJh.png)
 
 - `git status`：確認目前 Git 的狀態。
 
     在剛剛建立的 newfolder 資料夾下執行這個指令：
 
-    ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/9a0be074-0e61-4f68-b33f-02502fe012ab/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210418T100853Z&X-Amz-Expires=86400&X-Amz-Signature=29282ca4773219e547aa38a7f69d65c04b7abe6a87c6d73ee4c47aeda1f173b2&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+    ![](https://i.imgur.com/sWxMfJs.png)
 
     上面這段訊息的意思是「現在沒東西可以提交（nothing to commit）」。接著在這個資料夾裡建立一個內容為 “123” 並命名為 test.txt 的檔案：
 
-    ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/8b17a2ba-d4f6-4a6c-adac-e17338df8e36/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210418T100924Z&X-Amz-Expires=86400&X-Amz-Signature=51352d04373be1779b6aadef3495dff7cd3549edab572fbc724a7f6d609250b8&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+    ![](https://i.imgur.com/OiHMwNy.png)
 
     訊息顯示是這個檔案尚未被加到 Git 版控系統裡，還沒開始正式被 Git 追蹤，請你用 git add <file> ... 指令來加入想提交的檔案。
 
@@ -135,13 +135,13 @@ GitHub 則是一個以 Git 的理念為基礎，為開發者提供雲端版本�
 
     在前面提到的 **Git 的運作方式**中，要把檔案送到 Local repository 需要兩個步驟：
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ebeddf82-e098-4622-aa25-4d2dea139f89/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210418T101001Z&X-Amz-Expires=86400&X-Amz-Signature=273837ae73ed7400f31007f08cecc79e2d7a0038a6c49b2121b03f01be0024d1&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+	![](https://i.imgur.com/OrkmmB7.png)
 
 - `git add`：把要提交的檔案新增到 Staging area （預存區）。
 
     如果覺得輸入檔案名稱很麻煩，也可以直接打 `git add .`，再用 `git status` 確認目前狀態。
 
-    ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/b2094a8f-a8ec-46b3-adf6-ef07dcaea282/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210418T101042Z&X-Amz-Expires=86400&X-Amz-Signature=08c1efabd03e7f85b0e316dd3dd64436c39b696a2f21ba2757497eae42a98d94&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+    ![](https://i.imgur.com/KelxT84.png)
 
     會看見檔案名稱變成綠色，而且提示改成「Changes to be committed」，表示檔案已經位在 Staging area，準備送進 Local repository。
 
@@ -149,11 +149,11 @@ GitHub 則是一個以 Git 的理念為基礎，為開發者提供雲端版本�
 
     在後面加上的 `-m "text"` ，m 是 --message 的縮寫，text 是指要說明「你在這次的 Commit 做了什麼事」，只要使用簡單、清楚的文字說明就好，中英文都可以，可以再用 `git status`確認狀態：
 
-    ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/e590ea07-f57a-4f7c-8f93-a9933948fbe3/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210418T101112Z&X-Amz-Expires=86400&X-Amz-Signature=3213119adfdfe2748b8fd700c83cf9ea01e0536e14b472faa46ceb9e9660ccb2&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+    ![](https://i.imgur.com/IjRt82W.png)
 
 - `git log`：可以查詢 commit 的歷史紀錄。
 
-    ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a542fb56-e34c-4c5c-ab1e-3b503109875d/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210418T101152Z&X-Amz-Expires=86400&X-Amz-Signature=107fc6c5091d25976143438cc2ea915e85c39779d5d857c8f28d03613008f16e&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+    ![](https://i.imgur.com/Mg86bvH.png)
 
 ---
 
@@ -161,15 +161,15 @@ GitHub 則是一個以 Git 的理念為基礎，為開發者提供雲端版本�
 
 1. 要上傳檔案到 GitHub，需要先在上面開一個新的專案。在 GitHub 網站的右上角點選「+」號，並選擇「New repository」。
 
-    ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/dd3885bb-499d-4897-93c5-e1d057d8a3d8/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210418T101217Z&X-Amz-Expires=86400&X-Amz-Signature=179475055b277f91b1f42efea7a2c2733bc6aba176fdb16e15671c8040a889ac&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+    ![](https://i.imgur.com/KJHs6hx.png)
 
 2. 輸入 Repository name，不重複即可。
 
-    ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/a9f3fd84-9a25-4685-b23a-1da45fd1387e/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210418T101242Z&X-Amz-Expires=86400&X-Amz-Signature=e796434266e02c5a4419b24d60c8a1e1afed23153c1a7a73d7d35434ec1a8c8f&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+    ![](https://i.imgur.com/4uUQ5cU.png)
 
 3. 按下 Create repository ，若看到以下畫面，表示已成功建立 Repository。
 
-    ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/f17e1f59-6042-4c34-a982-2d73d66b2924/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210418T101301Z&X-Amz-Expires=86400&X-Amz-Signature=2f12d4bedcf8b3134a48f1a494ba729b42b975de85cb8c7b9f5e24d21ddbb45c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+    ![](https://i.imgur.com/a7WkpQb.png)
 
     頁面中敘述如果是全新開始，請依「create a new repository on the command line」的內容指示進行；如果是要上傳現存專案，則依照「push an existing repository from the command line」選項進行
 
@@ -190,13 +190,13 @@ GitHub 則是一個以 Git 的理念為基礎，為開發者提供雲端版本�
 
 5. 回到 GitHub 網站，重新整理頁面，顯示順利把本地儲存區的檔案推到這個遠端儲存區了！
 
-    ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/13de0b0b-3397-48b7-aa3a-def5ab35ee75/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210418T101331Z&X-Amz-Expires=86400&X-Amz-Signature=cb10d5879c63f2936314e3061367534b1a5eccb39d5f60689deca382b11c153b&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+    ![](https://i.imgur.com/IzHyOjV.png)
 
 ---
 
 ### Git pull 下載同步更新
 
-![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/08883d7d-5210-498b-805e-241b11490e96/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210418T101406Z&X-Amz-Expires=86400&X-Amz-Signature=4a18047408bb7462e7dc727e3311351cdbbc3efbcab1ba5064125d4d9d5dd817&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+![](https://i.imgur.com/tSCmY76.png)
 
 我使用 GitHub 在線上編輯了 test.txt，在 123 下面新增一行 456，然後新增了一個檔案 newfile.txt，目前遠端儲存區的檔案已被更新，但是本地端的儲存區檔案還是更新前的狀態，所以要使用 `git pull`把檔案拉回來。
 
@@ -204,7 +204,7 @@ GitHub 則是一個以 Git 的理念為基礎，為開發者提供雲端版本�
 
     因為在 git push 的時候已經使用 -u 設定過 upstream，所以可以省略為 `git pull`，再用 `cat` 輸出 test.txt 看一下是否有剛剛新增的 456，這樣子就完成啦～
 
-    ![](https://s3.us-west-2.amazonaws.com/secure.notion-static.com/ab01d1ca-20f6-4155-aef6-397b6e9de1bf/Untitled.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAT73L2G45O3KS52Y5%2F20210418%2Fus-west-2%2Fs3%2Faws4_request&X-Amz-Date=20210418T101428Z&X-Amz-Expires=86400&X-Amz-Signature=cb25f556a7cf574384a1f4dafec2cde22c280b700c6a3bd9c0bb16456a0eb88c&X-Amz-SignedHeaders=host&response-content-disposition=filename%20%3D%22Untitled.png%22)
+    ![](https://i.imgur.com/1AH2tQv.png)
 
 ---
 
