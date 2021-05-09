@@ -1,0 +1,15 @@
+{
+  "name": "week4",
+  "version": "1.0.0",
+  "description": "## 備註",
+  "main": "hw1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
