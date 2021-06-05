@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>新拖延運動報名表單</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./normalize.css">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <div id="container">
+    <header class="header">
+      <h1 class="header__title">
+        新拖延運動報名表單
+      </h1>
+      <p class="header__desc">
+        活動日期：2020/12/10 ~ 2020/12/11
+        <br>
+        活動地點：台北市大安區新生南路二段1號
+      </p>
+      <p class="header__notice">
+        * 必填
+      </p>
+    </header>
+    <form class="lazy__form">
+      <div class="question name">
+        <label class="text">暱稱</label>
+        <input type="text" name="name" placeholder="您的回答" />
+        <div class="notice"></div>
+      </div>
+      <div class="question email">
+        <label class="text">電子郵件</label>
+        <input type="email" name="email" placeholder="您的電子郵件" />
+        <div class="notice"></div>
+      </div>
+      <div class="question phone">
+        <label class="text">手機號碼</label>
+        <input type="tel" name="phone" placeholder="您的手機號碼" />
+        <div class="notice"></div>
+      </div>
+      <div class="question__radio">
+        <label class="text">報名類型</label>
+        <input type="radio" name="type" id="imagine" /><label for="imagine">躺在床上用想像力實作</label>
+        <br>
+        <input type="radio" name="type" id="swipe" /><label for="swipe">趴在地上滑手機找現成的</label>
+        <div class="notice"></div>
+      </div>
+      <div class="question know">
+        <label class="text">怎麼知道這個活動的</label>
+        <input type="input" name="know" placeholder="您的回答" />
+        <div class="notice"></div>
+      </div>
+      <div class="question other">
+        <label class="text__other">其他</label>
+        <label class="desc">對活動的一些建議</label>
+        <input type="input" placeholder="您的回答"/>
+      </div>
+      <button>提交</button>
+    </form>
+      <p class="desc">請勿透過表單送出您的密碼。</p>
+  </div>
+  <footer>
+    <div class="footer__bottom">
+      © 2020 © Copyright. All rights Reserved.
+    </div>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>
