@@ -20,7 +20,7 @@ header {
   font-size: 36px;
   font-weight: bold;
   letter-spacing: -1.8px;
-  margin: 0px 0px 35px 0px;
+  margin-bottom: 35px;
 }
 
 .header__desc {
@@ -36,7 +36,7 @@ header {
 }
 
 .question {
-  margin: 45px 0px;
+  margin: 50px 0px;
   
 }
 
@@ -58,8 +58,9 @@ header {
 }
 
 .notice {
-  margin-top: 15px;
+  margin-top: 10px;
   color: #e74149;
+  position: absolute;
 }
 
 .desc {

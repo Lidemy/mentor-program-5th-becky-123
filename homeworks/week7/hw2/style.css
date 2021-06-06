@@ -99,12 +99,10 @@
   letter-spacing: 0.14px;
   padding: 0px 10px 40px 55px ;
   line-height: 2em;
-  transition: all 0.5s ease-in-out;
 }
 
 .faq__answer__active {
   display:block;
-  transition: all 0.5s ease-in-out;
 }
 
 footer {
