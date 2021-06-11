@@ -1,0 +1,90 @@
+body {
+  background: #ff80bf;
+  font-family: Andale Mono, monospace;
+}
+
+h1 {
+  font-size: 70px;
+  color: white;
+  text-align: center;
+  margin: 40px;
+}
+
+.add {
+  max-width: 540px;
+  margin: 0px auto;
+  background: white;
+  box-shadow: 1.8px 2.4px 5px 0 rgba(0, 0, 0, 0.3);
+  padding: 30px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.add input {
+  height: 50px;
+  width: 450px;
+  border: 0px;
+  font-size: 20px;
+  transition: all 0.3s ease-in;
+}
+
+.add button {
+  width: 45px;
+  height: 45px;
+  background: #ff80bf;
+  border: 0px;
+  font-size: 30px;
+  margin-right: 5px;
+  color: white;
+  border-radius: 5px;
+  transition: all 0.2s ease-out;
+}
+
+.add button:hover {
+  background: #AFE169;
+}
+
+.list {
+  display: block;
+  max-width: 540px;
+  margin: 20px auto;
+  background: white;
+  box-shadow: 1.8px 2.4px 5px 0 rgba(0, 0, 0, 0.3);
+  padding: 30px 50px;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  transition: all 0.2s ease-out;
+  padding: 0px 10px;
+}
+
+.row:hover {
+  background: #ff80bf;
+  color: white;
+}
+
+input[type=checkbox] {
+  width: 20px;
+  height: 20px;
+  border-color: #ff80bf;
+  margin-right: 10px;
+  border: 0px;
+  font-size: 30px;
+}
+
+input[type=checkbox]:checked + p {
+  font-size: 20px;
+  color: #d1d1e0;
+  text-decoration: line-through;
+  transition: all 0.2s ease-out;
+}
+
+.row .del{
+  margin-left: auto;
+  font-size: 35px;
+  transform: rotate(45deg);
+}
