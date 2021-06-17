@@ -1,0 +1,260 @@
+.navbar {
+  box-shadow: -1.4px -1.4px 6px 0 #97a2a0;
+}
+
+.navbar .wrapper {
+  display: flex;
+  height: 84px;
+  background: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  position: relative;
+}
+
+.navbar__site_name, .footer__site {
+  font-family: Questrial;
+  font-size: 36px;
+  color: #489846;
+}
+
+.navbar__option {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+}
+
+.navbar__option li {
+  margin-left: 10px;
+  border-radius: 8px;
+  transition: background 0.2s;
+}
+
+.navbar__option li.active, .navbar__option li:hover {
+  background: #ff7286;
+}
+
+.navbar__option li.active a, .navbar__option li:hover a {
+  color: white;
+}
+
+.navbar__option li a {
+  text-decoration: none;
+  color: black;
+  padding: 12px 25px;
+  display: block;
+}
+
+.wrapper {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+
+.banner {
+  height: 760px;
+  position: relative;
+  background-image:url(img/bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg__1stPrize {
+  background-image:url(img/bg-first.jpg);
+  z-index: 0;
+}
+
+.bg__2ndPrize {
+  background-image:url(img/bg-second.jpg);
+  z-index: 0;
+}
+
+.bg__3rdPrize {
+  background-image:url(img/bg-third.jpg);
+  z-index: 0;
+}
+
+.bg__noPrize {
+  background: black;
+  color: white;
+}
+
+.bg__cover::after {
+  content: '';
+  position: absolute;
+  background: rgba(255, 255, 255, 0.6);
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
+}
+
+.lottery {
+  max-width: 500px;
+  margin: 0px auto;
+  background: white;
+  padding: 25px 30px;
+  border-radius: 16px;
+  position: relative;
+  top: 50px;
+  font-family: MicrosoftJhengHei;
+  color: #322929;
+  z-index: 3;
+}
+
+.lottery h1 {
+  color: #5ec1b6;
+  font-size: 24px;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px 0px;
+}
+
+.lottery div {
+  display: flex;
+  align-items: flex-start;
+  border-bottom: 1px solid #cdcdcd;
+  padding: 20px 20px 20px 0px;
+}
+
+.lottery h2 {
+  font-size: 18px;
+  width: 100px;
+  font-weight: bold;
+  padding-right: 5px;
+  margin: 3px;
+}
+
+.lottery p {
+  width: 70%;
+  line-height: 1.63;
+  font-size: 16px;
+  padding-top: 0px;
+  margin: 0px;
+}
+
+.banner button {
+  width: 80%;
+  height: 55px;
+  border-radius: 8px;
+  border: 0;
+  background: #e62a45;
+  font-size: 20px;
+  position: relative;
+  color: white;
+  display: block;
+  margin: 40px auto 10px auto;
+  transition: background 0.2s;
+}
+
+.banner button:hover {
+  background: #489846;
+}
+
+.hide {
+  display:none;
+}
+
+.prize {
+  max-width: 650px;
+  margin: 0px auto;
+  position: relative;
+  top: 150px;
+  padding: 10px;
+  z-index: 3;
+}
+
+.prize h1 {
+  font-size: 36px;
+  text-align:center;
+  margin: 0px;
+}
+
+footer {
+  border-radius: 5px;
+}
+
+.footer__top {
+  background: #e8efee;
+  padding: 32px;
+}
+
+.footer__top .wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer__info {
+  margin-right: 16px;
+}
+
+.footer__info div + div {
+  margin-top: 10px;
+}
+
+.footer__bottom {
+  background: #35564b;
+  padding: 12px;
+  text-align: center;
+  color: white;
+  font-size: 16px;
+}
+
+@media(max-width: 768px) {
+  .navbar .wrapper {
+    height: 120px;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0px;
+  }
+
+  .navbar__site_name {
+    margin-top: 10px
+  }
+
+  .navbar__option {
+    display: flex;
+    width: 100%;
+  }
+
+  .navbar__option li {
+    margin-left: 0;
+    flex: 1;
+    border-radius: 0;
+    text-align: center;
+  }
+
+  .banner {
+    height: 860px;
+  }
+
+  .lottery {
+    margin: 0px 10px;
+    top: 40px
+  }
+
+  .lottery h1 {
+    padding: 0;
+  }
+
+  .lottery div {
+    display: block;
+    padding: 10px 20px 1  0px 0px;
+  }
+
+  .lottery p {
+    margin: 10px 3px;
+    width: auto;
+  }
+
+  .footer__top .wrapper {
+    flex-direction: column-reverse;
+  }
+
+  .footer__info {
+    margin: 16px 0px 0px 0px;
+  }
+
+}
