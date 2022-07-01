@@ -1,0 +1,100 @@
+body {
+  background: #fff5e0;
+}
+.waring {
+  color: #BA1E18;
+  font-weight: bold;
+  background: #FFC3C3;
+  padding: 10px;
+  text-align: center;
+}
+
+.board {
+  background: white;
+  width: 700px;
+  max-width: 100%;
+  margin: 20px auto;
+  padding: 20px 30px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 3px #e8e8e8;
+}
+
+.user__btn a {
+  color: black;
+  border:1px #8DBAFF solid;
+  border-radius: 5px;
+  background: white;
+  padding: 10px 30px;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+}
+
+.comment__content {
+  width: 95%;
+  margin: 10px 0px;
+  padding: 10px;
+  border-color: #8DBAFF;
+}
+
+.comment__add__btn , .login__btn , .register__btn {
+  border:1px #8DBAFF solid;
+  border-radius: 5px;
+  background: white;
+  padding: 10px 30px;
+}
+
+.board__hr {
+  border-top: 2px #E5E4DF solid;
+  margin: 20px;
+}
+
+.card {
+  margin-top: 20px;
+  display: flex;
+  min-height: 70px;
+}
+
+.card__avatar {
+  background: #c2daff;
+  height: 50px;
+  width: 50px;
+  min-width: 50px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.card__content {
+  margin-top: 5px;
+}
+
+.card__nickename {
+  color: #4D4C7D;
+  word-break: break-word;
+  font-weight: bold;
+}
+
+.card__created {
+  color: grey;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.card__text {
+  word-break: break-word;
+  margin-top: 7px;
+}
+
+.login__input input , .register__input input {
+  border:1px #8DBAFF solid;
+  padding: 3px;
+  margin-bottom: 15px;
+}
+
+.board__nickname {
+  word-break: break-word;
+}
+
+.error__msg {
+  color: #BA1E18;
+}
